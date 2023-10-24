@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     padding: 0px;
     margin: 0px;
 }
@@ -62,6 +62,7 @@
 .opcion1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    align-self: center;
+   height: 5vh;
 }
 
 .card1 {
@@ -74,7 +75,7 @@
     margin-top: 10px;
     overflow: hidden;
     text-align: center; 
-   
+    border: 1px solid black;
     
 }
 
@@ -87,7 +88,8 @@
     margin-right: 10px;
     margin-top: 10px;
     overflow: hidden;
-    text-align: center; 
+    text-align: center;
+    border: 1px solid black; 
 }
 
 .card3 {
@@ -100,6 +102,7 @@
     margin-top: 10px;
     overflow: hidden;
     text-align: center; 
+    border: 1px solid black;
 }
 
 .card4 {
@@ -112,6 +115,7 @@
     margin-top: 10px;
     overflow: hidden;
     text-align: center; 
+    border: 1px solid black;
 }
 
 .image {
@@ -131,6 +135,8 @@
     height: 10%;
     width: 100%;
     margin-top: 10px;
+    font-size: smaller;
+    color: black;
 }
 
 .call-to-action {
@@ -140,4 +146,49 @@
     color: white;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.opcion2 {
+    display: flex;
+    height: 5vh;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.opcion3 {
+    display: flex;
+    height: 5vh;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.opcion4 {
+    display: flex;
+    height: 5vh;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.opcion5 {
+    display: flex;
+    height: 5vh;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.categoria {
+    color: black;
+    font-size: 30px;
+
+}
+
+.cantidad {
+    color: hsl(20, 3%, 87%);
+    margin-left: 5px;
+    font-size: 15px;
+    
 }
