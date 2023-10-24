@@ -41,9 +41,16 @@
 }
 
 .container footer {
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
     height: 7vh;
     background-color: blueviolet ;
     grid-area: d;
+   
 }
 
 .titulo {
@@ -58,34 +65,79 @@
 }
 
 .card1 {
+    display: flex;
+    flex-direction: column;
     width: 30%;
     height: 380px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
+    overflow: hidden;
+    text-align: center; 
+   
+    
 }
 
 .card2 {
+    display: flex;
+    flex-direction: column;
     width: 30%;
     height: 380px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
+    overflow: hidden;
+    text-align: center; 
 }
 
 .card3 {
+    display: flex;
+    flex-direction: column;
     width: 30%;
     height: 380px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
+    overflow: hidden;
+    text-align: center; 
 }
 
 .card4 {
+    display: flex;
+    flex-direction: column;
     width: 30%;
     height: 380px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
-   
+    overflow: hidden;
+    text-align: center; 
+}
+
+.image {
+    height: 65%;
+    width: 100%;
+}
+
+.product-name {
+    font-size: 25px;
+    color: black;
+    height: 15%;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.price {
+    height: 10%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.call-to-action {
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
